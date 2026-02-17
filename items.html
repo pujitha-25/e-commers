@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                padding:0;
+            }
+          .logo{
+            background-color: aliceblue;
+            }
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width:15vw;
+    height: 20vh;
+}
+  .logo{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+
+.logo ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    cursor: pointer;
+}
+.logo ul li{
+    transition:0.3s;
+}
+
+.logo ul li:hover{
+    color: rgb(138, 10, 243);
+    transform: scale(1.05);
+}
+
+
+
+
+.search{
+    display: flex;
+}   
+.search input{
+    height:39.5px;
+    border:1px solid gray;
+    padding:0 10px;
+    outline:none;
+}
+
+.search button{
+    height:40px;
+    border:none;
+    background:#333;
+    color:white;
+    padding:0 15px;
+}
+@media (max-width: 768px){
+    .product{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .logo{
+        flex-direction: column;
+        gap:10px;
+    }
+}
+
+         
+         .product{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    background-color: rgb(217, 217, 252);
+   
+}
+
+.items{
+    background:rgb(228, 228, 250);
+    padding:10px;
+}
+
+.items img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+.items{
+    transition: 0.3s;
+}
+
+.items:hover{
+    transform: scale(1.05);
+}
+
+         
+         
+        </style>
+
+    </head>
+<body>
+        <div class="logo"> 
+            <img src="pic2.png" alt=""> 
+            <ul class="left">
+                <li>HOME</li>
+                <li>SHOP</li>
+                <li>DEALS</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="search">
+             <input type="text" placeholder="Search here">
+             <button>search</button>
+            </div>
+            <ul class="right">
+                <li>WISHLIST</li>
+                <li>CART</li>
+                <li>HELP</li>
+            </ul>
+        </div>
+        <div class="product">    
+            <div class="items">
+                <img src="fp1.jpeg" alt="">
+                <p>WOMEN FASHION Kurti <br>bottom dupatta seta<br>$1,021</p>
+                
+            </div>    
+            <div class="items">   
+                <img src="fp2.jpeg" alt="">
+                <p>Black Kurtis&Kurtas<br>$518</p>
+                 
+            </div>      
+            <div class="items">     
+              <img src="fp3.jpeg" alt="">
+              <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>
+            <div class="items">   
+               <img src="fp4.jpeg" alt="">
+               <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>      
+            <div class="items">    
+               <img src="fp5.jpeg" alt="">   
+                <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>      
+            <div class="items">        
+               <img src="fp6.jpeg" alt="">
+               <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>      
+            <div class="items">     
+                <img src="fp7.jpeg" alt="">
+                <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>      
+            <div class="items">      
+                 <img src="fp8.jpeg" alt="">
+                 <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>    
+            <div class="items">       
+                 <img src="fp9.jpeg" alt="">
+                 <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>       
+            <div class="items">      
+                 <img src="fp10.jpeg" alt="">
+                 <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>     
+            <div class="items">        
+               <img src="fp11.jpeg" alt="">
+               <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>     
+            <div class="items">         
+                 <img src="fp12.jpeg" alt="">
+                 <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>     
+            <div class="items">           
+                <img src="fp13.jpeg" alt="">
+                <p>Embroiderd Chinon Fabric straight Kurta <br>Pant and Dupatta set <br>$996</p>
+            </div>       
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <STYle>
+           
+body{
+    margin:0;
+    display:flex;
+    height:100vh;
+}
+
+.left{
+    width:50%;
+}
+
+.left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.right{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:50px;
+    background-color: rgb(228, 228, 243);
+}
+
+.right input{
+    width:95%;
+    height:45px;
+    margin-bottom:15px;
+    padding:0 10px;
+    border-radius: 5px;
+}
+
+.right button{
+    height:45px;
+    width:100% ;
+    background:blueviolet;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+.right .for p{
+    height:40px;
+    line-height:40px;
+    transition:0.3s;
+    text-align: center;
+}
+
+.right .for p:hover{
+    background-color: rgb(230, 243, 243);
+    border-radius:10px;
+}
+        </STYle>
+    </head>
+    <body>
+        <div class="left">
+            <img src="pic.png" alt="">
+        </div>
+        <div class="right">
+            <h2>welcome to our page!</h2>
+            <p>login your account</p>
+            <div class="box1">
+                <input type="text"placeholder="Email Address">
+            
+            </div>
+            <div class="box2">
+                <input type="text" placeholder="password">
+            </div>
+            <a href="items.html" class="but">
+                <button>login</button>
+            </a>
+            <div class="for">
+                <p>forget password?</p>
+            </div>   
+               
+        </div>
+        
+    </body>
+</html>
